@@ -133,7 +133,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0351019"
-     inkscape:cx="279.85336"
+     inkscape:cx="183.71751"
      inkscape:cy="101.382"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -198,7 +198,7 @@
          sodipodi:role="line"
          id="tspan40"
          x="43.322277"
-         y="58.094086">    todos: [ &quot;Wake up&quot;,&quot;Make Coffee&quot;,... ],</tspan><tspan
+         y="58.094086">    todos: [todos: [{id:0, todoText: &quot;Wake up&quot; },...],</tspan><tspan
          sodipodi:role="line"
          id="tspan42"
          x="43.322277"
@@ -247,7 +247,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#90ee90;stroke-width:0.96499997;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1309)"
-       d="M 180.58629,87.855785 C 180.02063,74.253195 175.41962,62.175029 163.08526,56.213906"
+       d="M 180.58629,87.855785 C 180.02063,74.253195 155.48197,69.332134 143.65883,61.581735"
        id="path1305"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
