@@ -3,6 +3,7 @@ import "./App.css";
 import TodoList from "./TodoList"
 import NewTodo from "./NewTodo"
 import uuid from "uuid/v1";
+import infoImage from "./images/infoTodo.svg";
 
 function App() {
   const initialData = [
@@ -12,6 +13,7 @@ function App() {
   ]
   const [todos, setTodos] = useState(initialData);
   const [newTodo, setNewTodo] = useState({ id: -1, todoText: "" });
+  const [showInfo,setShowInfo] = useState(false)
   console.log(todos)
 
   const addTodo = todo => {
@@ -30,6 +32,14 @@ function App() {
     <div className="container outer">
       <h2 style={{ textAlign: "center", marginBottom:25 }}>
         Props and Lifting State Demo
+        <span style={{ fontSize: 12 }}>
+          <input
+            checked={showInfo}
+            onChange={e => setShowInfo(e.target.checked) }
+            type="checkbox"
+          />
+          Show info
+        </span>
       </h2>
 
       <div className="row">
@@ -43,6 +53,11 @@ function App() {
             nextTodo={newTodo}            
           />
         </div>
+      </div>
+      <div>
+        {showInfo && (
+          <img src={infoImage} className="center-img" alt="infoImage" />
+        )}
       </div>
     </div>
   );
